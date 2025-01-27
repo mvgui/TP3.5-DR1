@@ -1,0 +1,25 @@
+body {
+  background-color: red;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  body {
+    background-color: blue;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 1025px) {
+  body {
+    background-color: red;
+  }
+}
